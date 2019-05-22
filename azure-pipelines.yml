@@ -25,3 +25,9 @@ steps:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     failTaskOnFailedTests: true
+- task: StaticAnalysis@4
+    inputs:
+      checkStyleRunAnalysis: true # Optional
+      pmdRunAnalysis: true # Optional
+      findBugsRunAnalysis: true # Optional
+
