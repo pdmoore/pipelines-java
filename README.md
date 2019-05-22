@@ -1,5 +1,5 @@
 
-[![Build Status](https://dev.azure.com/pdmoore0816/CSD-CI/_apis/build/status/pdmoore.pipelines-java%20(1)?branchName=master)](https://dev.azure.com/pdmoore0816/CSD-CI/_build/latest?definitionId=2&branchName=master)
+[![Build Status](https://dev.azure.com/pdmoore0816/CSD-CI/_apis/build/status/pdmoore.pipelines-java?branchName=master)](https://dev.azure.com/pdmoore0816/CSD-CI/_build/latest?definitionId=2&branchName=master)
 
 # Contributing
 
