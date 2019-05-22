@@ -17,17 +17,10 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
-    publishJUnitResults: false
+    publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    failTaskOnFailedTests: true
-- task: StaticAnalysis@4
-    inputs:
-      checkStyleRunAnalysis: true # Optional
-      pmdRunAnalysis: true # Optional
-      findBugsRunAnalysis: true # Optional
+#    checkStyleRunAnalysis: true # Optional
+#    pmdRunAnalysis: true # Optional
+#   findBugsRunAnalysis: true # Optional
 
