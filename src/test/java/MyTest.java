@@ -16,4 +16,9 @@ public class MyTest {
         String actual = d.DoSomething(false);
         Assert.assertEquals("I am not covered", actual);
     }
+
+    @Test
+    public void test_failure() {
+        Assert.fail("force fail, looking at how Azure Pipeline reports failure");
+    }
 }
