@@ -1,4 +1,6 @@
 
+[![Build Status](https://dev.azure.com/pdmoore0816/CSD-CI/_apis/build/status/pdmoore.pipelines-java%20(1)?branchName=master)](https://dev.azure.com/pdmoore0816/CSD-CI/_build/latest?definitionId=2&branchName=master)
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
