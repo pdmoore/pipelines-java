@@ -1,5 +1,6 @@
 import com.microsoft.demo.Demo;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class MyTest {
@@ -18,6 +19,7 @@ public class MyTest {
     }
 
     @Test
+    @Ignore
     public void test_failure() {
         Assert.fail("force fail, looking at how Azure Pipeline reports failure");
     }
