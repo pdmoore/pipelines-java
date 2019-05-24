@@ -1,6 +1,8 @@
+package com.microsoft.demo;
+
 public class GildedRose {
 
-    Item[] items;
+    public Item[] items;
 
     public GildedRose(Item[] items) {
         this.items = items;

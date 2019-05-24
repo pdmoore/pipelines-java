@@ -1,5 +1,7 @@
 import static org.junit.Assert.*;
 
+import com.microsoft.demo.GildedRose;
+import com.microsoft.demo.Item;
 import org.junit.Test;
 
 public class GildedRoseTest {
