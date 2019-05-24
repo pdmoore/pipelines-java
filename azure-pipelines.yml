@@ -23,4 +23,9 @@ steps:
 #    checkStyleRunAnalysis: true # Optional
 #    pmdRunAnalysis: true # Optional
 #    findBugsRunAnalysis: true # Optional
+- task: PublishCodeCoverageResults@1
+    inputs:
+      codeCoverageTool: 'JaCoCo'
+      summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/*coverage.xml'
+      reportDirectory: '$(System.DefaultWorkingDirectory)/**/coverage'
 
