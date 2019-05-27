@@ -21,4 +21,12 @@ public class GildedRoseTest {
         sut.updateQuality();
         assertEquals(21, items[0].quality);
     }
+
+    @Test
+    public void LegendaryQuality_does_not_change() {
+        Item[] items = new Item[] { new Item("Sulfuras, Hand of Ragnaros", 25, 80) };
+        GildedRose sut = new GildedRose(items);
+        sut.updateQuality();
+        assertEquals(80, items[0].quality);
+    }
 }
