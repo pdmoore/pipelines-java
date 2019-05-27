@@ -16,8 +16,8 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>..</groupId>
-      <artifactId>..</artifactId>
+      <groupId>dev.emergent</groupId>
+      <artifactId>isbn-service</artifactId>
       <scope>system</scope>
       <systemPath>${basedir}/lib/isbn-service-1.0.0.jar</systemPath>
     </dependency>
