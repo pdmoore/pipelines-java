@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class ISBN10Tests {
+public class ISBN10Test {
 
     @Test
     public void ISBN_shorterThan10Characters_ReturnsInvalidBookInfo() {
