@@ -17,12 +17,14 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
+    publishJUnitResults: false      # Change to true to see Unit Test Results in pipeline
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+# Add following lines for Code Coverage using JaCoCo tooling
+#    codeCoverageTool: 'JaCoCo'
+#    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/*coverage.xml'
+#    reportDirectory: '$(System.DefaultWorkingDirectory)/**/coverage'
 #    checkStyleRunAnalysis: true
 #    pmdRunAnalysis: true # Optional
 #    findBugsRunAnalysis: true # Optional
-    codeCoverageTool: 'JaCoCo'
-    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/*coverage.xml'
-    reportDirectory: '$(System.DefaultWorkingDirectory)/**/coverage'
+
